@@ -8,5 +8,7 @@ jobs:
     container: swift:6.0.3
     steps:
       - uses: actions/checkout@v4
+      - name: swift version
+        run: swift --version
       - name: Run script
         run: swift build
