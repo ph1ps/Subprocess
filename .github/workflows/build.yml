@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: swift:nightly-6.1
+    container: swift:nightly-6.1-jammy
     steps:
       - uses: actions/checkout@v4
       - name: swift version
