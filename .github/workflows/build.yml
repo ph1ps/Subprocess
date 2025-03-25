@@ -4,8 +4,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
-    container: swift:6.0.3
+    runs-on: ubuntu-latest
+    container: swift:nightly-6.1
     steps:
       - uses: actions/checkout@v4
       - name: swift version
